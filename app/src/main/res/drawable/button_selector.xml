@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape android:shape="oval" android:padding="10dp">
+                    <solid android:color="#B8B8BC"/>
+                </shape>
+            </item>
+            <!-- BUTTON -->
+            <item android:bottom="10px">
+                <shape android:shape="oval" android:padding="10dp">
+                    <padding android:bottom="5dp"/>
+                    <solid android:color="#F5F5F9"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape android:shape="oval" android:padding="10dp">
+                    <solid android:color="#B8B8BC"/>
+                </shape>
+            </item>
+            <!-- BUTTON -->
+            <item android:bottom="10px">
+                <shape android:shape="oval" android:padding="10dp">
+                    <padding android:bottom="5dp"/>
+                    <solid android:color="#B8B8BC"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

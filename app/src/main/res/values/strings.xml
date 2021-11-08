@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">ProsperityShelter</string>
+    <string name="image_description" translatable="false">Image Description</string>
+    <string name="title_text" translatable="false">Prosperity Shelter</string>
+    <string name="second_title_text">to the rescue!</string>
+    <string name="login_text" translatable="false">Login</string>
+    <string name="default_email_text" translatable="false">Email</string>
+    <string name="default_password_text" translatable="false">Password</string>
+    <string name="login_button" translatable="false">Login</string>
+    <string name="register_button">Sign Up</string>
+    <string name="username_text" translatable="false">Username</string>
+    <string name="fullname_text">Full Name</string>
+    <string name="hello_text">Hello</string>
+    <string name="human_text">Human</string>
+    <string name="welcoming_text">You’ve decided to adopt a pet?                                   We help you find your new friend.</string>
+    <string name="Hellohuman_text">Welcome Human!</string>
+    <string name="PetCategory_text">Pet Category</string>
+    <string name="CatsButton_text">Cats</string>
+    <string name="DogsButton_text">Dogs</string>
+    <string name="BirdsButton_text">Birds</string>
+    <string name="ReptilesButton_text">Reptiles</string>
+    <string name="RodentsButton_text">Rodents</string>
+    <string name="OthersButton_text">Others</string>
+    <string name="Associations_text">Associations</string>
+    <string name="FuristasButton_text" translatable="false">Furistas</string>
+    <string name="PawsBetaButton_text" translatable="false">Paws Beta</string>
+    <string name="ExoticComButton_text" translatable="false">Exotic Com</string>
+    <string name="GeekCuddleButton_text" translatable="false">Geek Cuddle</string>
+    <string name="AdoptMe_text">Adopt me</string>
+    <!-- DOIS EM FALTA -->
+    <string name="CatsPage_text">What a greater gift than the love of a cat!</string>
+    <string name="DogsPage_text">The best therapist has fur and four legs :)</string>
+    <string name="BirdsPage_text">Keep a green tree in your heart and perhaps a singing bird will come!</string>
+    <string name="ReptilesPage_text">Welcome to Jurassic World!</string>
+    <string name="RodentsPage_text">When the cat is away, the mice will play :)</string>
+    <string name="OthersPage_text">Rare animals give you character!</string>
+    <string name="AssociationsPage_text">Find your local animal shelter to adopt, volunteer and donate!</string>
+    <string name="AssociationsPageVolunteeringButton_text">Volunteering</string>
+    <string name="MeetingsPage_text">Check your future cuddling meetings!</string>
+    <string name="Profile_text">Oh hey it\'s you!</string>
+    <string name="Settings_text">Settings</string>
+    <string name="SettingsButton_text">Settings</string>
+    <string name="SettingsHelpButton_text">Help</string>
+    <string name="ExtraPage_text">Join our community today!</string>
+    <string name="ExtraTitle_text">Become a member of our community!</string>
+    <string name="Wehaveabunch">We have a bunch of discounts on different zoos, aquatic parks and more!</string>
+    <string name="andguesswhat">And guess what? Maybe you can\'t have pets or can\'t have enough pets, so we decided to give you offers to sponsor wild animals!</string>
+    <string name="bysponsoring">By sponsoring an animal from the Zoo, you will contribute to a worldwide conservation project, while following its growth. Your contribution will help in the maintenance and welfare of the chosen animal.</string>
+    <string name="ExtraPageButton_text">Join</string>
+    <string name="SponsorsPage_text">We are happy to call you family!</string>
+    <string name="SponsorsButton_text">Sponsors</string>
+    <string name="DiscountsButton_text">Discounts</string>
+    <string name="OtherButton_text">Other</string>
+    <string name="PetProfile_text">What\'s a better best friend than a pet</string>
+    <string name="PetProfileButton_text">Book Meeting</string>
+    <string name="SponsorPetProfile_text">Welcome to wild life!</string>
+    <string name="SponsorPetProfileButton_text">Sponsor</string>
+    <string name="Information_text">Information</string>
+    <string name="About_text">About</string>
+    <string name="AboutDescription_text">This app was created by Beatriz Sá, A46565.        In the scope of the Mobile Applications Development curricular unit of the third year of the Degree in Informatics and Multimedia Engineering at ISEL, it was proposed, by the engineers Ana Duarte Correia and Pedro Fazenda, to carry out an application as a final project.         This type of project consists of developing an Android application based on a business plan, using a development process centred on the user experience.         The broad objective of this app is aimed at adopting animals and spreading knowledge about the responsibilities and commitments that a pet brings.</string>
+    <string name="PetLover_text">Pet Lover</string>
+    <string name="Favourites_text">Favourites</string>
+    <string name="PetName_text" translatable="false">PetName</string>
+    <string name="PetAssociation_text" translatable="false">Association Name</string>
+    <string name="PetGender_text" translatable="false">Gender</string>
+    <string name="PetRace_text" translatable="false">Race</string>
+    <string name="PetFur_text" translatable="false">FurType</string>
+    <string name="PetCastration_text" translatable="false">Castration</string>
+    <string name="PetDescription_text" translatable="false">Description</string>
+    <string name="BookButton_text">Book Meeting</string>
+    <string name="Meeting_text">Meeting:</string>
+    <string name="Check_text">Check the pet profile for more details!</string>
+    <string name="SponsorName_text" translatable="false">PetName</string>
+    <string name="SponsorAssociation_text" translatable="false">Association Name</string>
+    <string name="SponsorGender_text" translatable="false">Gender</string>
+    <string name="SponsorRace_text" translatable="false">Race</string>
+    <string name="SponsorFur_text" translatable="false">FurType</string>
+    <string name="SponsorDescription_text" translatable="false">Description</string>
+    <string name="SponsorButton_text">Sponsor</string>
+    <string name="Username_Text" translatable="false">Username:</string>
+    <string name="Email_Text" translatable="false">Email:</string>
+    <string name="FullName_Text">Name:</string>
+
+    <string name="date" translatable="false">10th of June, 11 am</string>
+
+    <string name="ZeldaDescription" translatable="false">She’s sugar, spice and everything nice. Despite being well-fed, Zelda is exceptionally greedy and will try to steal as many treats as she can from you.</string>
+    <string name="MufasaDescription" translatable="false">The silliest of little scoundrels, he loves to tease his fellow brothers and sisters. He will often play with their tails and pounce on them while they sleep.</string>
+    <string name="button" translatable="false">Login</string>
+
+    <string name="JoinButton_text">Join</string>
+
+
+</resources>

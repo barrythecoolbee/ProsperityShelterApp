@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "13325400240",
+    "firebase_url": "https://prosperityshelterrr-default-rtdb.firebaseio.com",
+    "project_id": "prosperityshelterrr",
+    "storage_bucket": "prosperityshelterrr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13325400240:android:08db4d89cfbf5c2385e375",
+        "android_client_info": {
+          "package_name": "dam_a46565.prosperityshelterrr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13325400240-vc30cicvb97nri2la6q2rot381n423a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dam_a46565.prosperityshelterrr",
+            "certificate_hash": "71c6aa952dcc91d440417df0a0cd54edd390528f"
+          }
+        },
+        {
+          "client_id": "13325400240-5q22f21v185o5t8ib8skdt4o7sds5n56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlhvzBkAoqghceGv1Xvcpsji-eYK_fjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13325400240-5q22f21v185o5t8ib8skdt4o7sds5n56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

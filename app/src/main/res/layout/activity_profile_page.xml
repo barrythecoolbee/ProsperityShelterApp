@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pets_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FavouritesText"
+        tools:listitem="@layout/row_pets" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="620dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:contentDescription="@string/image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f5f5fa" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100dp">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f5f5fa" />
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="0dp">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:contentDescription="@string/image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ffffff" />
+    </FrameLayout>
+
+    <!-- PROFILE -->
+    <View
+        android:id="@+id/Circle6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F5F5F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/FavouritesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="@string/Favourites_text"
+        android:textColor="#6A6A6A"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <ImageButton
+        android:id="@+id/ProfileButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:contentDescription="@string/image_description"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle6"
+        app:layout_constraintEnd_toEndOf="@+id/Circle6"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/Circle6"
+        app:layout_constraintTop_toTopOf="@+id/Circle6"
+        app:layout_constraintVertical_bias="0.95"
+        android:src="@drawable/fox"
+        android:background="@drawable/button_selector"/>
+
+    <!-- SETTINGS -->
+
+    <View
+        android:id="@+id/Circle0"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F5F5F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageButton
+        android:id="@+id/SettingsButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:contentDescription="@string/image_description"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle0"
+        app:layout_constraintEnd_toEndOf="@+id/Circle0"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/Circle0"
+        app:layout_constraintTop_toTopOf="@+id/Circle0"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/ic_outline_settings_244" />
+
+    <!-- HOME -->
+    <View
+        android:id="@+id/Circle1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F5F5F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <ImageButton
+        android:id="@+id/HomeButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:contentDescription="@string/image_description"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle1"
+        app:layout_constraintEnd_toEndOf="@+id/Circle1"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/Circle1"
+        app:layout_constraintTop_toTopOf="@+id/Circle1"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/ic_outline_home_24" />
+
+    <!-- CALLENDAR -->
+
+    <View
+        android:id="@+id/Circle2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F5F5F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <ImageButton
+        android:id="@+id/CallendarButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:contentDescription="@string/image_description"
+        android:padding="17dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle2"
+        app:layout_constraintEnd_toEndOf="@+id/Circle2"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/Circle2"
+        app:layout_constraintTop_toTopOf="@+id/Circle2"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/ic_outline_calendar_today_24" />
+
+    <!-- STAR -->
+
+    <View
+        android:id="@+id/Circle3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F5F5F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <ImageButton
+        android:id="@+id/StarButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:contentDescription="@string/image_description"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle3"
+        app:layout_constraintEnd_toEndOf="@+id/Circle3"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="@+id/Circle3"
+        app:layout_constraintTop_toTopOf="@+id/Circle3"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/ic_outline_star_outline_24" />
+
+    <!-- DOLLAR -->
+
+    <View
+        android:id="@+id/Circle5"
+        android:layout_width="22.5dp"
+        android:layout_height="22.5dp"
+        android:background="@drawable/shadow_button"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <ImageView
+        android:id="@+id/DollarIcon"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:contentDescription="@string/image_description"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle5"
+        app:layout_constraintEnd_toEndOf="@+id/Circle5"
+        app:layout_constraintStart_toStartOf="@+id/Circle5"
+        app:layout_constraintTop_toTopOf="@+id/Circle5"
+        app:srcCompat="@drawable/ic_baseline_attach_money_24" />
+
+    <!-- USER -->
+    <View
+        android:id="@+id/Circle4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F5F5F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <ImageButton
+        android:id="@+id/UserButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:contentDescription="@string/image_description"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle4"
+        app:layout_constraintEnd_toEndOf="@+id/Circle4"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="@+id/Circle4"
+        app:layout_constraintTop_toTopOf="@+id/Circle4"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/ic_outline_person_outline_244" />
+
+    <TextView
+        android:id="@+id/ProfileIntroText"
+        android:layout_width="194dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/Profile_text"
+        android:textAlignment="center"
+        android:textColor="#4F4F4F"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:foregroundGravity="center_horizontal"
+
+        app:civ_border_color="#FFFFFFFF"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Circle6"
+        app:layout_constraintEnd_toEndOf="@+id/Circle6"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="@+id/Circle6"
+        app:layout_constraintTop_toTopOf="@+id/Circle6"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:foregroundGravity="center_horizontal"
+
+        android:src="@drawable/fox"
+        app:civ_border_color="#FFFFFFFF"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileIntroText"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/Username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/Profile_text"
+        android:textColor="#4F4F4F"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileImage"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/PetLover_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/PetLover_text"
+        android:textColor="#4F4F4F"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Username_text"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <!-- ABOUT -->
+
+    <!-- VOLUNTEERING -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
