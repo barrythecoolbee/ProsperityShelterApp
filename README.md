@@ -47,11 +47,11 @@
 ## About The Project
 
 <p align="center">
-<img src="app/src/main/res/drawable/Intro.png" alt="Logo" width="170" height="303">
-<img src="app/src/main/res/drawable/Login.png" alt="Logo" width="170" height="303">
-<img src="app/src/main/res/drawable/Intro2.png" alt="Logo" width="170" height="303">
-<img src="app/src/main/res/drawable/Home.png" alt="Logo" width="170" height="303">
-<img src="app/src/main/res/drawable/PetProfile.png" alt="Logo" width="170" height="303">
+<img src="app/src/main/res/drawable/Intro.png" alt="Logo" width="150" height="267">
+<img src="app/src/main/res/drawable/Login.png" alt="Logo" width="150" height="267">
+<img src="app/src/main/res/drawable/Intro2.png" alt="Logo" width="150" height="267">
+<img src="app/src/main/res/drawable/Home.png" alt="Logo" width="150" height="267">
+<img src="app/src/main/res/drawable/PetProfile.png" alt="Logo" width="150" height="267">
 </p>
 
 Prosperity Shelter is an Android application that aims to provide the user with animals for adoption, all the necessary information about them and provides some knowledge and care to take when adopting an animal, bringing new commitments and responsibilities that must be taken into account when adopting a new pet.
