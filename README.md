@@ -52,10 +52,10 @@ Due to the type of responsibilities and commitments that this application can po
 
 ### Built With
 
-* [Kotlin](https://nextjs.org/)
-* [XML](https://reactjs.org/)
-* [Android Studio](https://vuejs.org/)
-* [Firebase](https://angular.io/)
+* [Kotlin](https://kotlinlang.org/)
+* [XML](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
+* [Android Studio](https://developer.android.com/studio)
+* [Firebase](https://firebase.google.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
